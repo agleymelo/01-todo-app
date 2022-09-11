@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  line-height: 1.6;
+  
+  padding-top: 4rem;
+  border-top: 1px solid var(--gray-400);
+}
+
+.container svg, strong, p {
+  color: var(--gray-300)
+}
+
+.container strong, p {
+  font-size: 1rem;
+}
+
+.container strong {
+  margin-top: 1rem;
+}
